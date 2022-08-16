@@ -1,0 +1,33 @@
+body {
+    background-color: blueviolet;
+    display: flex; 
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    
+}
+h1{
+    color:rgb(2, 1, 1) ; 
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.subtitulo{
+color: rgb(32, 5, 21);
+font-size: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Milagros{
+    color: blue;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.contenedor {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 30px;
+    width: 400px;
+    background-color: aqua;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    display: flex; flex-direction: column;
+}

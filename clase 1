@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer página</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+    Mi primera experiencia html
+    <h1>
+        <p style="color: blueviolet;text-align:center;"> Formulario de Registro
+    </h1>
+    <hr />
+    <fieldset>
+        <legend>
+            <h3>
+                <p style="color: aqua"> Registro
+            </h3>
+        </legend>
+        <label aria-label="Nombre">Nombre:</label>
+        <input type="text"></input>
+        <br />
+        <label>Contraseña:</label>
+        <input type="password">
+        <br />
+        <label>Correo electronico:</label>
+        <input type="email">
+        <br />
+        <label>Color favorito:</label>
+        <select>
+            <option>Azul</option>
+            <option value="">Rojo</option>
+            <option value="">verde</option>
+            <option value="">Amarillo</option>
+        </select>
+        <br />
+        <form action="">
+            <label for="fecha de nacimiento">fecha de nacimiento</label>
+            <input type="date" name="fecha de nacimiento" id="fecha de nacimiento">
+            <input type="submit" value="aceptar">
+        </form>
+        <br />
+        <h3>Género</h3>
+        <input type="radio" name="sexo">
+        <label>Femenino</label>
+        <br />
+        <input type="radio" name="sexo">
+        <label>Masculino</label>
+        <br />
+        <input type="radio" name="sexo">
+        <label>Otro</label>
+        <br />
+        <h3>Comida favorita</h3>
+        <input type="radio" name="comida">
+        <label for="">Patas</label>
+        <br />
+        <input type="radio" name="comida">
+        <label for="">Comidas rápidas</label>
+        <br />
+        <input type="radio" name="comida">
+        <label for="">Asado</label>
+        <br />
+        <input type="radio" name="comida">
+        <label for="">Otro</label>
+        <br />
+        <h2>¿Información correcta?</h2>
+        <label for="radio">Si</label>
+        <input type="checkbox" name="info">
+        <br />
+        <label for="radio">No</label>
+        <input type="checkbox" name="info">
+        <br />
+        <label>comentario</label>
+        <textarea name="" id="" cols="10" rows="5"></textarea>
+        <br />
+        <button>
+            <h3>
+                <p style="color: brown;"> Registrarse
+            </h3>
+        </button>
+
+
+
+    </fieldset>
+</body>
+
+</html>
